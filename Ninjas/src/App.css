@@ -1,0 +1,59 @@
+#root {
+  display: flex;
+  flex-direction: column;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.ninja-card {
+  background: rgb(105, 105, 105);
+  border-radius: 50px;
+  padding: 30px;
+  margin: 10px;
+  display: flex;
+  max-width: 50%;
+  min-width: 50%;
+  min-height: 50%;
+  max-height: 50%;
+  flex-direction: column;
+}
+
+.ninja-card img {
+  border-radius: 10px;
+  margin: 5px;
+}
+
+.top-card {
+  background: rgb(69, 69, 69);
+  display: flex;
+}
+
+.top-card-data {
+  display: flex;
+  padding: 15px;
+  margin: 5px;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 40px;
+  background: rgb(255, 162, 162);
+  height: 150px;
+  width: 150px;
+}
+
+
+.top-card-data img{
+  border-radius: 5px;
+  height: 100px;
+  width: 100px;
+}
+
+.ninja-card button {
+  margin: 3px;
+}
+.ninja-card-container {
+ display: flex;
+ max-width: 30%;
+}
+
