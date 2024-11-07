@@ -37,7 +37,7 @@ const checkIfKayam = (newF: TopCard, favorits: TopCard[]) : boolean | undefined 
 }
 
 const checkIfBigFromFive = (favorits: TopCard[]) : boolean | undefined => {
-  if (favorits.length < 4) return true
+  if (favorits.length < 5) return true
 }
 
   return (

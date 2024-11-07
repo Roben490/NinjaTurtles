@@ -16,7 +16,7 @@ const ToppyCard = (props: PropTopCard): JSX.Element => {
     
 
   return (
-    <div className='top-card'>
+    <div className='top-card' style={{background: props.props.length === 5 ? "red" : "yellow"}}>
     {props.props.map((topi) => 
     <div className='top-card-data'>
         <p>{topi.name}</p>
